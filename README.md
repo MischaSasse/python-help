@@ -10,7 +10,6 @@ This repo will include the following concepts:
 - functions
 - classes + relations (inheritance)
 - private and public variables
-- class private variables
 - json data read / write
 - database connection
 - SQL
