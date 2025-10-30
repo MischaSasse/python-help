@@ -33,8 +33,10 @@ print(personsAge)
 
 myPerson.update({'job': 'chef'})
 myPerson['country'] = 'The Netherlands'
-myPerson = {**myPerson, 'city': 'Almere'}
+myPerson = {**myPerson, 'city': 'Almere'} 
 myPerson = dict(myPerson, happyWithMajor= 'No')
+
+# **dict is een unpacking operator (zoek maar op voor meer kennis, is niet een must)
 # 4 manieren om iets toe te voegen aan een dict
 
 print(myPerson)
