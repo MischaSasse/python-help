@@ -15,3 +15,13 @@ print("------------")
 
 for fruit in fruits:
     print(fruit)
+
+print("------------")
+
+x = 5
+while x <= 10:
+    print(x)
+    x+=1
+# zolang while (condition = true): run code
+# zorg er wel voor dat als je een variabel oid hebt, 
+# dat deze verandert in de while-loop zodat je geen infinite loop hebt
