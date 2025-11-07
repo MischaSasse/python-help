@@ -32,3 +32,38 @@ if 1 > 10 or x > 0:
 
 if x != check:
     print(f"{x} en {check} zijn niet hetzelfde") 
+      
+# Voor de mensen die al iets meer kennis hebben en betere code willen schrijven:
+wifi = True
+login = True
+admin = False
+
+def seeAdminPanel() :
+    return
+    
+def anyFunction():
+    if wifi:
+        if login:
+            if admin:
+                seeAdminPanel()
+            else:
+                print("must be an admin")
+        else:
+            print("must be logged in")
+    else: 
+        print("must be connected to wifi")
+
+
+def betterFunction():
+    if not wifi:
+        print("must be connected to wifi")
+        return
+    if not login:
+        print("must be logged in")
+        return
+    if not admin:
+        print("must be an admin")
+        return
+    seeAdminPanel()
+    
+# anyFunction()
